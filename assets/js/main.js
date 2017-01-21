@@ -25,6 +25,16 @@
 
 	};
 
+	$(document).ready(function() {
+    	$(".scrollLink").click(function(e) {
+
+        	$.scrollTo($(this).attr("href"));    
+        	e.preventDefault();
+        
+    	});
+
+	});
+
 	var $window = $(window);
 
 	$window.on('load', function() {

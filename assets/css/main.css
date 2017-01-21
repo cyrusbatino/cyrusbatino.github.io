@@ -1263,7 +1263,7 @@
 						left: 50%;
 						bottom: -0.75em;
 						margin-left: -0.5em;
-						border-bottom: solid 0em #616161;
+						border-bottom: solid 0em #ffffff;
 						border-left: solid 0.5em transparent;
 						border-right: solid 0.5em transparent;
 						-moz-transition: border-bottom-width .25psx ease-in-out;
@@ -1324,7 +1324,8 @@
 			#main {
 				width: 45em;
 				background: #ffffff;
-				border: solid 1px #616161;
+				box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.25);
+			/*	border: solid 1px #616161;*/
 			}
 
 			.panel {
@@ -1493,7 +1494,8 @@
 				padding: 15px 15px 15px 15px;
 				margin: 0 0 7px 0;
 				background: #ffffff;
-				border: solid 1px #616161;
+				box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.25);
+				/*border: solid 1px #616161;*/
 			}
 
 				.panel header {
